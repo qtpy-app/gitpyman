@@ -1,7 +1,7 @@
 from pprint import pprint
 
 import requests
-
+import json
 from github3 import login
 
 # from github3.decorators import (
@@ -23,6 +23,7 @@ headers = {
 }
 
 global me
+global organizations
 
 
 # pprint(globals().keys())
@@ -45,7 +46,11 @@ def login2github(uname, upwd):
     me = gh.me()
     me.uname = uname
     me.upwd = upwd
+
     Signals.show_state_msg_signal.emit("login success", 3000)
+
+    #
+    get_orgs_and_set()
 
 
 def get_me():
@@ -54,7 +59,6 @@ def get_me():
 
 @requires_auth
 def get_watching(*a, **kw):
-
     #
     # response = requests.get(
     #     f'https://api.github.com/users/{login_name}/subscriptions',
@@ -74,14 +78,35 @@ def get_watching(*a, **kw):
 @requires_auth
 def del_watching(full_name):
     me = get_me()
-    api_url= 'https://api.github.com/user/subscriptions'+full_name
+    api_url = 'https://api.github.com/user/subscriptions' + full_name
     print(api_url)
-    response = requests.delete(api_url,
-                               headers=headers,auth=(me.uname, me.upwd))
+    response = requests.delete(api_url,headers=headers, auth=(me.uname, me.upwd))
     # print(response)
+
+
 # -------------------------- ↓
+
 @requires_auth
-def get_organizations():
+def get_orgs_and_set() -> list:
     me = get_me()
-    orgs_iter = me.organizations()
-    return orgs_iter
+    # orgs_iter = me.organizations()
+    api_url = 'https://api.github.com/user/orgs'
+
+    res =   requests.get(api_url,headers=headers, auth=(me.uname, me.upwd))
+
+    global organizations
+    # orgs = []
+    # for org in orgs_iter:
+    #     orgs.append(orgs_iter.login)
+    if res.status_code==200:
+        res_list = json.loads(res.content.decode())
+        orgs = list(map(lambda res_list_oneDict:res_list_oneDict.get('login'),res_list))
+        organizations = orgs
+    # print("set organizations:",globals().get("organizations",'没有'))
+    return organizations
+
+
+
+def get_organizations() -> list:
+
+    return globals().get("organizations",[])

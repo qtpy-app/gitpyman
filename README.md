@@ -3,6 +3,7 @@ Manager your github : add comment for your response, stars, following use local 
 With the growth of stars and follwing, sometimes it's easy to forget why you care about them.
 
 ### Interface
+
 ![image.png](https://i.loli.net/2019/07/23/5d3688f11811917513.png)
 
 ### Use
@@ -20,13 +21,16 @@ method 2: or download from :
 
 
 ### User Guide
-![image.png](https://i.loli.net/2019/07/23/5d3685331e93078582.png)
 
+![image.png](https://i.loli.net/2019/07/23/5d3685331e93078582.png)
+(In this page , after you write website, username, password , click `Login/Update` button, will auto write to web ,so you can skip step 1.)
 1. First Time , need login `github.com` (after will cache, No more login required) 
 1. Everytime run software, must be click `Login/Update` button for get User authentication. 
 1. `double click` can open url to reop; 
+
 ![image.png](https://i.loli.net/2019/07/23/5d3686270f75f26396.png)
 1. filter keywords(user The blank space split) 
+
 ![image.png](https://i.loli.net/2019/07/23/5d3686b06295016538.png)
 
 ### How to Contribute

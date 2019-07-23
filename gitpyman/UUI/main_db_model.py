@@ -24,15 +24,16 @@ class Json(TypeDecorator):
 # 创建对象的基类:
 Model = declarative_base()
 
-WEBSITE_TABLE_NAME = "website_info"
-USER_TABLE_NAME = "user_info"
-# HISTORY_TABLE_NAME = "history_info"
-REPOSITORIES_TABLE_NAME = "repositories_show"
-STARS_TABLE_NAME = "stars_show"
-FOLLOWING_TABLE_NAME = "following_show"
-WATCHING_TABLE_NAME = "watching_show"
+# @formatter:off ↓
+WEBSITE_TABLE_NAME       = "website_info"
+USER_TABLE_NAME          = "user_info"
+REPOSITORIES_TABLE_NAME  = "repositories_show"
+STARS_TABLE_NAME         = "stars_show"
+FOLLOWING_TABLE_NAME     = "following_show"
+WATCHING_TABLE_NAME      = "watching_show"
+ORGANIZATIONS_TABLE_NAME = "organizations_show"
 
-
+# @formatter:on  ↑
 # -------------------------- ↑
 
 
@@ -82,23 +83,17 @@ class WatchingTable(BaseComment):
     __tablename__ = WATCHING_TABLE_NAME
 
 
-def getTable(tableName:str):
+class OrganizationsTable(BaseComment):
+    __tablename__ = ORGANIZATIONS_TABLE_NAME
+
+
+def getTable(tableName: str):
     try:
         TableClass = tableName.split("_")[0].capitalize()
-        return globals()[TableClass+"Table"]
+        return globals()[TableClass + "Table"]
     except Exception as e:
-        print("getTable Error",e)
+        print("getTable Error", e)
         return None
-
-# def sync_create_orgs_table(orgs:list):
-#
-#         print(new_table)
-        # print(Model.metadata.tables.keys())
-    # 创建表
-
-    # 添加tab
-
-    # "WatchingTable"
 
 
 # -------------------------- ↓
@@ -140,19 +135,22 @@ class SqlalchemyDBControl:
         if pre_suffix == "PRAGMA":
             pass
         else:
-            return False
+            return False  # DEBUG
             print("*" * 8 + "do_execute" + "*" * 8 + "↓", )
             print(statement.replace('?', r"%r") % parameters)
             print("*" * 8 + "do_execute" + "*" * 8 + "↑")
 
         return False
 
-    def create_table(self,sync_tables = None):
+    def create_table(self, sync_tables=None):
         if isinstance(sync_tables,list):
             for org in sync_tables:
                 # 创建类,
                 new_table = type(org, (BaseComment,), {
                     "__tablename__": org
                 })
-        print(Model.metadata.tables.keys())
+            print(Model.metadata.tables.keys())
+
+        # -------------------------- ↑
+
         Model.metadata.create_all(self.engine)  # 创建表结构

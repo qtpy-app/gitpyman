@@ -8,52 +8,6 @@
       <change afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/50_xiangrikui/source/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/50_xiangrikui/source/.idea/source.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/50_xiangrikui/source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/dataSources/bc4b0192-d065-4e54-b5b5-0f95f5721564.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/dataSources/dbb0624c-06c3-4c1e-8750-6755bd36e818.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/gm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/runConfigurations/Client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/Client.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/Data/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/Data/qwebchannel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/Data/res.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/Data/run_in_web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Base_TableView.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Base_TableView_Delegate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Serve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Serve.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Ui_Serve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/main_db_control.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/main_db_control_util1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/main_db_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI_WEB/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI_WEB/webControl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/UUI_WEB/webSharedObject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/Ui_Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/gm_run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/hgoldfish/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/hgoldfish/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/hgoldfish/utils/eventlet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/res_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/util/BasePara.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/util/Task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/util/github.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitpyman/util/runTest.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../learningQML/02_Menu.qml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../learningQML/F001.qml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../learningQML/F001Form.ui.qml" afterDir="false" />
@@ -138,6 +92,16 @@
       <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Upload/uploadRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Upload/uploadRec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/sent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/sent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/97501ac8-f032-4c7e-933c-8f9458522b09.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitpyman/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitpyman/Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitpyman/Data/run_in_web.js" beforeDir="false" afterPath="$PROJECT_DIR$/gitpyman/Data/run_in_web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitpyman/UUI/main_db_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitpyman/UUI/main_db_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitpyman/util/github.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitpyman/util/github.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../watcherQML/Graphics/graph.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../watcherQML/Graphics/node_content_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Graphics/node_content_widget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../watcherQML/Graphics/node_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Graphics/node_node.py" afterDir="false" />
@@ -296,114 +260,147 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="216">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gitpyman/gm_run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="12" selection-start-line="12" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#167#1" expanded="true" />
-                <element signature="e#168#178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://bf626486-98c2-481d-a346-e2c93693ce91/schema/main/table/cookies">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="a9c78b07-c2c4-4be7-988c-2e5250f65b4c">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="231">
-                <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
-              <folding>
-                <element signature="e#6867#6931#0" expanded="true" />
-                <element signature="e#9691#9782#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_control.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-              <folding>
-                <element signature="e#16#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
-              <folding>
-                <element signature="e#4008#4099#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gitpyman/Client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="64" column="50" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="50" />
-              <folding>
-                <element signature="e#171#180#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.3113829">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="175">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gitpyman/gm_run.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#0#167#1" expanded="true" />
+                    <element signature="e#168#178#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1319">
+                  <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_control.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-332">
+                  <caret line="178" column="33" selection-start-line="178" selection-start-column="33" selection-end-line="178" selection-end-column="33" />
+                  <folding>
+                    <element signature="e#16#27#0" expanded="true" />
+                    <element signature="e#1652#1679#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="181">
+                  <caret line="85" column="24" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#4002#4309#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gitpyman/Client.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-308">
+                  <caret line="212" selection-start-line="212" selection-end-line="213" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#171#180#0" expanded="true" />
+                    <element signature="e#1113#1689#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gitpyman/util/github.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                    <element signature="e#943#1234#0" expanded="true" />
+                    <element signature="e#976#1219#0" expanded="true" />
+                    <element signature="e#1272#1465#0" expanded="true" />
+                    <element signature="e#1450#1472#0" expanded="true" />
+                    <element signature="e#1987#2221#0" expanded="true" />
+                    <element signature="e#2304#2439#0" expanded="true" />
+                    <element signature="e#2936#2976#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-106">
+                  <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#15#40#0" expanded="true" />
+                    <element signature="e#1163#2675#0" expanded="true" />
+                    <element signature="e#3583#3623#0" expanded="true" />
+                    <element signature="e#3705#5540#0" expanded="true" />
+                    <element signature="e#5696#6438#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gitpyman/Ui_Client.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="104">
+                  <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gitpyman/UUI_WEB/webSharedObject.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#1377#1452#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gitpyman/Data/run_in_web.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="278">
+                  <caret line="147" column="40" selection-start-line="147" selection-start-column="22" selection-end-line="147" selection-end-column="40" />
+                  <folding>
+                    <element signature="n#!!block;n#addDom_TextArea#0" expanded="true" />
+                    <element signature="n#style#0;n#textarea#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#!!block;n#addDom_TextArea_following#1" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -420,6 +417,22 @@
       <find>loadAll</find>
       <find>Cache</find>
       <find>loadAllCookie</find>
+      <find>login</find>
+      <find>拦截</find>
+      <find>auth</find>
+      <find>auth=</find>
+      <find>__do_paras_html</find>
+      <find>t.start</find>
+      <find>login2github</find>
+      <find>main_login_btn</find>
+      <find>onSolveWeb</find>
+      <find>get_organizations</find>
+      <find>me</find>
+      <find>get_me</find>
+      <find>github</find>
+      <find>addDom_TextArea</find>
+      <find>topy_merge_comment</find>
+      <find>get_or</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -434,27 +447,19 @@
         <option value="$PROJECT_DIR$/gm/gm.py" />
         <option value="$PROJECT_DIR$/gitpyman/.gitignore" />
         <option value="$PROJECT_DIR$/gitpyman/__init__.py" />
-        <option value="$PROJECT_DIR$/gitpyman/Client.py" />
-        <option value="$PROJECT_DIR$/MANIFEST.in" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/gitpyman/UUI/main_db_control.py" />
-        <option value="$PROJECT_DIR$/gitpyman/UUI/main_db_model.py" />
-        <option value="$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py" />
         <option value="$PROJECT_DIR$/gitpyman/gm_run.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/MANIFEST.in" />
         <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/github_comment.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/gitpyman/UUI/main_db_model.py" />
+        <option value="$PROJECT_DIR$/dist/testeee.py" />
+        <option value="$PROJECT_DIR$/gitpyman/Data/run_in_web.js" />
+        <option value="$PROJECT_DIR$/gitpyman/Client.py" />
+        <option value="$PROJECT_DIR$/dist/123.py" />
+        <option value="$PROJECT_DIR$/dist/123.json" />
+        <option value="$PROJECT_DIR$/gitpyman/util/github.py" />
+        <option value="$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py" />
       </list>
     </option>
   </component>
@@ -469,7 +474,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -482,19 +486,15 @@
               <item name="github_comment" type="462c0819:PsiDirectoryNode" />
               <item name="gitpyman" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="github_comment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="github_comment" type="462c0819:PsiDirectoryNode" />
-              <item name="gitpyman" type="462c0819:PsiDirectoryNode" />
-              <item name="UUI" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -591,14 +591,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testeee" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github_comment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dist" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dist/testeee.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main_gm" />
       <item itemvalue="Python.gm" />
       <item itemvalue="Python.gm_run" />
+      <item itemvalue="Python.testeee" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.gm_run" />
+        <item itemvalue="Python.testeee" />
         <item itemvalue="Python.gm" />
         <item itemvalue="Python.main_gm" />
       </list>
@@ -615,43 +639,44 @@
       <option name="presentableId" value="Default" />
       <updated>1563806915737</updated>
       <workItem from="1563806918324" duration="7763000" />
-      <workItem from="1563848539526" duration="6532000" />
+      <workItem from="1563848539526" duration="8583000" />
+      <workItem from="1563859608543" duration="16866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14295000" />
+    <option name="totallyTimeSpent" value="33212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19848485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19469696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" sideWeight="0.49848485" weight="0.32928944" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.56060606" visible="true" weight="0.20277296" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924242" weight="0.32928944" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5712121" visible="true" weight="0.3812825" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47833622" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924242" weight="0.32928944" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="bottom" id="Regex Tester" order="12" />
       <window_info anchor="bottom" id="TagMyCode" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.43939394" side_tool="true" visible="true" weight="0.20277296" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.4287879" side_tool="true" weight="0.6031196" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="16" />
+      <window_info anchor="bottom" id="Database Console" order="17" sideWeight="0.49848485" weight="0.32928944" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="QuickSloth" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.111363634" />
+      <window_info anchor="right" id="Database" order="4" weight="0.111363634" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
       <window_info anchor="right" id="Remote Host" order="6" />
       <window_info anchor="right" id="PlantUML" order="7" />
@@ -666,10 +691,71 @@
       <path value="$PROJECT_DIR$/gm" />
     </ignored-roots>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gitpyman/util/github.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/github_comment$main_gm.coverage" NAME="main_gm Coverage Results" MODIFIED="1563808053857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/github_comment$testeee.coverage" NAME="testeee Coverage Results" MODIFIED="1563871008022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dist" />
     <SUITE FILE_PATH="coverage/github_comment$gm.coverage" NAME="gm Coverage Results" MODIFIED="1563808177924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gm" />
-    <SUITE FILE_PATH="coverage/github_comment$gm_run.coverage" NAME="gm_run Coverage Results" MODIFIED="1563854118215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitpyman" />
+    <SUITE FILE_PATH="coverage/github_comment$gm_run.coverage" NAME="gm_run Coverage Results" MODIFIED="1563877891644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitpyman" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>json.loads(res.content.decode())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>json.loads()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>import json</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res.status_code</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>me.organizations()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>me.organizations</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>me.organization</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>me</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>res.content.decode()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pygitc.py" />
@@ -682,16 +768,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../py_c/_Envs/m5/Lib/site-packages/gitpyman/gm_run.py" />
     <entry file="file://$PROJECT_DIR$/gitpyman/Data/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gitpyman/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -709,30 +785,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/Ui_main_db_control.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/Ui_main_db_control.py" />
     <entry file="file://$PROJECT_DIR$/build/lib/gitpyman/UUI_WEB/webComponent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="871">
           <caret line="301" column="43" selection-start-line="301" selection-start-column="43" selection-end-line="301" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitpyman/Client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="50" />
-          <folding>
-            <element signature="e#171#180#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,37 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_control.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
-          <folding>
-            <element signature="e#4008#4099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
-          <folding>
-            <element signature="e#6867#6931#0" expanded="true" />
-            <element signature="e#9691#9782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://97501ac8-f032-4c7e-933c-8f9458522b09/schema/main/table/cookies">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="a9c78b07-c2c4-4be7-988c-2e5250f65b4c">
@@ -785,10 +811,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitpyman/gm_run.py">
+    <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="12" selection-start-line="12" selection-end-line="13" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bf626486-98c2-481d-a346-e2c93693ce91/schema/main/table/cookies">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="e43af4fa-e459-480a-b5ff-904ef5bf6296">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_control_util1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#658#698#0" expanded="true" />
+            <element signature="e#887#1046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/Serve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-952895990/PyQt5/QtWebEngineWidgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="1512" column="8" selection-start-line="1512" selection-start-column="8" selection-end-line="1512" selection-end-column="8" />
+          <folding>
+            <element signature="e#54556#54594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="147">
+            <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-332">
+          <caret line="178" column="33" selection-start-line="178" selection-start-column="33" selection-end-line="178" selection-end-column="33" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+            <element signature="e#1652#1679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/gm_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding>
             <element signature="e#0#167#1" expanded="true" />
             <element signature="e#168#178#0" expanded="true" />
@@ -796,22 +893,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://bf626486-98c2-481d-a346-e2c93693ce91/schema/main/table/cookies">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="a9c78b07-c2c4-4be7-988c-2e5250f65b4c">
-          <filtering>
-            <filter text="" />
-          </filtering>
+    <entry file="file://$PROJECT_DIR$/dist/file_path.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/testeee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="231">
-            <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://D:/Personal/Temp/Ditto/DragFiles/text_5.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../py_c/_Envs/m5/Lib/site-packages/github3/users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="471" column="8" selection-start-line="471" selection-start-column="8" selection-end-line="471" selection-end-column="8" />
+          <folding>
+            <element signature="e#14455#15107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../py_c/_Envs/m5/Lib/site-packages/github3/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+          <folding>
+            <element signature="e#4078#4505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../py_c/_Envs/m5/Lib/site-packages/github3/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="228" column="33" selection-start-line="228" selection-start-column="33" selection-end-line="228" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../py_c/_Envs/m5/Lib/site-packages/github3/github.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1634" lean-forward="true" selection-start-line="1634" selection-end-line="1634" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/Ui_Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/123.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/util/github.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#943#1234#0" expanded="true" />
+            <element signature="e#976#1219#0" expanded="true" />
+            <element signature="e#1272#1465#0" expanded="true" />
+            <element signature="e#1450#1472#0" expanded="true" />
+            <element signature="e#1987#2221#0" expanded="true" />
+            <element signature="e#2304#2439#0" expanded="true" />
+            <element signature="e#2936#2976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/Data/run_in_web.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="147" column="40" selection-start-line="147" selection-start-column="22" selection-end-line="147" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!block;n#addDom_TextArea#0" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#addDom_TextArea_following#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="212" selection-start-line="212" selection-end-line="213" selection-end-column="21" />
+          <folding>
+            <element signature="e#171#180#0" expanded="true" />
+            <element signature="e#1113#1689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="24" />
+          <folding>
+            <element signature="e#4002#4309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI_WEB/webSharedObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+          <folding>
+            <element signature="e#1377#1452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+          <folding>
+            <element signature="e#15#40#0" expanded="true" />
+            <element signature="e#1163#2675#0" expanded="true" />
+            <element signature="e#3583#3623#0" expanded="true" />
+            <element signature="e#3705#5540#0" expanded="true" />
+            <element signature="e#5696#6438#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

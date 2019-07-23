@@ -187,7 +187,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                  2.2 登录.
         """
 
-        print("login")
 
         if self.web_site_cb.currentText() == "" \
                 or self.web_user_cb.currentText() == "" \
@@ -203,16 +202,16 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.__relogin_clear()
             # 靠JS登录函数轮询登录
             url = DB.get_c_url()
-            self.browser.setUrl(QUrl(url))
+            le_url = self.browser.url().url()
+            if 'login' not in le_url:
+                self.browser.setUrl(QUrl(url))
             uname, upwd, url = DB.get_c_uname(), DB.get_c_upwd(), DB.get_c_url()
-            QTimer.singleShot(1500, lambda: self.page().runJavaScript(JF.login(uname, upwd)))
+            QTimer.singleShot(500, lambda: self.page().runJavaScript(JF.login(uname, upwd)))
             # </editor-fold>
+
             # <editor-fold desc="2. 模块登陆">
-            import github3
             t = Thread(target=github.login2github, args=(uname, upwd))
             t.start()
-            # self.thread_pools.spawn(lambda : github.login2github(uname, upwd))
-            # github.login2github(uname, upwd)
             # </editor-fold>
 
     @pyqtSlot()

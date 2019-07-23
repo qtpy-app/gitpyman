@@ -8,10 +8,12 @@ from urllib.parse import urlparse
 from xml.etree.ElementTree import Element
 from lxml import etree
 from sqlalchemy.orm import sessionmaker
+
 from UUI.main_db_model import (FOLLOWING_TABLE_NAME, STARS_TABLE_NAME, REPOSITORIES_TABLE_NAME, StarsTable,
                                RepositoriesTable,
                                FollowingTable,
-                               BaseComment
+                               BaseComment,
+                               OrganizationsTable
                                )
 
 
@@ -28,6 +30,8 @@ from PyQt5.QtWebEngineCore import QWebEngineUrlRequestInterceptor, QWebEngineUrl
 
 from util import BasePara
 from util.Task import JF
+from util import github
+# from gitpyman.util import github # 吗的 bug了
 import res_rc
 
 
@@ -38,7 +42,6 @@ class MyEngineView(QWebEngineView):
     def __init__(self, parent=None):
 
         super().__init__(parent)
-
 
         # <editor-fold desc="交互通信">
         self._page = MyEnginePage(self.parent())
@@ -107,28 +110,30 @@ class MyEngineView(QWebEngineView):
 
         self.page().toHtml(self.__do_paras_html)
 
+    import snoop
+    #snoop.install(out="snoop.log")
+    @snoop.snoop(depth=4)
     def __do_paras_html(self, qthtml):
         url = self.url().url()
         ParseResult = urlparse(url)
         querys = ParseResult.query
-        # if ("tab=repositories" in querys
-        #         or "tab=stars" in querys
-        #         or "tab=following" in querys):
-        ## warming TYPE need sync <run_in_web.js> func addDom_TextArea!
         if "tab=repositories" in querys:
             TYPE = 0
-            QUERY_TABLE_NAME = RepositoriesTable
+            QUERY_TABLE = RepositoriesTable
 
         elif "tab=stars" in querys:
             TYPE = 10
-            QUERY_TABLE_NAME = StarsTable
+            QUERY_TABLE = StarsTable
         elif "tab=following" in querys:
             TYPE = 20
-            QUERY_TABLE_NAME = FollowingTable
+            QUERY_TABLE = FollowingTable
+        elif len([org for org in github.get_organizations() if org in url]):
+            TYPE = 30
+            QUERY_TABLE = OrganizationsTable
         else:
             TYPE = -1
-            QUERY_TABLE_NAME = ""
-        if QUERY_TABLE_NAME != "":
+            QUERY_TABLE = ""
+        if QUERY_TABLE != "":
 
             html = etree.HTML(qthtml)
             if TYPE == 0:
@@ -137,6 +142,8 @@ class MyEngineView(QWebEngineView):
                 dom_list = html.xpath('//*[@id="js-pjax-container"]/div//h3/a')
             elif TYPE == 20:
                 dom_list = html.xpath('// *[ @ id = "js-pjax-container"]/div//a/span[2]')
+            elif TYPE == 30:
+                dom_list = html.xpath('//*[@id="org-repositories"]/div[1]/div/ul//h3/a')
             else:
                 dom_list = []
 
@@ -149,7 +156,7 @@ class MyEngineView(QWebEngineView):
                 # print(f"{TYPE},",dom.attrib,query_field)
                 self.query_field_list.append(query_field)
                 # 1.查数据库
-                comment_obj = self.mw.DB.orm_db.query(QUERY_TABLE_NAME).filter_by(query_field=query_field).first()
+                comment_obj = self.mw.DB.orm_db.query(QUERY_TABLE).filter_by(query_field=query_field).first()
                 # comment_obj = None
                 # 2.生成dom元素->赋值->监听
                 if comment_obj:
@@ -166,11 +173,12 @@ class MyEngineView(QWebEngineView):
         uname = self.mw.web_user_cb.currentText()
         if "tab=repositories" in querys:
             TABLE = RepositoriesTable
-
         elif "tab=stars" in querys:
             TABLE = StarsTable
         elif "tab=following" in querys:
             TABLE = FollowingTable
+        elif len([org for org in github.get_organizations() if org in url]):
+            TABLE = OrganizationsTable
         else:
             TABLE = ""
         if TABLE != "":  # type:BaseComment

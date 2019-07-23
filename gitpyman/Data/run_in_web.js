@@ -89,7 +89,9 @@ function addDom_TextArea(TYPE, index, comment) {
     else if (TYPE === 20) {
         addDom_TextArea_following(index, comment)
     }
-
+    else if (TYPE===30) {
+        addDom_TextArea_Organizations(index,comment)
+    }
 }
 
 function addDom_TextArea_repositories(index, comment) {
@@ -120,6 +122,17 @@ function addDom_TextArea_following(index, comment) {
     let li         = $("#js-pjax-container > div > div.col-lg-9.col-md-8.col-12.float-md-left.pl-md-2 > div.position-relative").children()[index];
     let before_dom = $(li).find(">:eq(1)")
     before_dom.after("<div style='float: right;'><textarea></textarea></div>");
+    let dom_textxarea = before_dom.next();
+    $(dom_textxarea).find("textarea").val(comment);
+    // $(dom_textxarea).change();
+    $(dom_textxarea)[0].pyindex = index;
+    on_TextArea_Change(dom_textxarea)
+}
+
+function addDom_TextArea_Organizations(index, comment) {
+    let li         = $("#org-repositories > div.col-8.d-inline-block > div > ul ").children()[index];
+    let before_dom = $(li).find(">:eq(0)");
+    before_dom.after("<div><textarea></textarea></div>");
     let dom_textxarea = before_dom.next();
     $(dom_textxarea).find("textarea").val(comment);
     // $(dom_textxarea).change();
