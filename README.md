@@ -1,4 +1,4 @@
-# github_comment
+# gitpyman
 Manager your github : add comment for your response, stars, following use local language.
 With the growth of stars and follwing, sometimes it's easy to forget why you care about them.
 
