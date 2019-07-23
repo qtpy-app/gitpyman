@@ -1,0 +1,7 @@
+<RCC>
+  <qresource>
+    <file>Data/jquery-3.3.1.min.js</file>
+    <file>Data/qwebchannel.js</file>
+    <file>Data/警报声.wav</file>
+  </qresource>
+</RCC>

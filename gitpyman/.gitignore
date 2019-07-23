@@ -1,0 +1,10 @@
+/Local Storage
+/Cache
+/Data/_qwebchannel.js
+/Data/babel_.cmd
+/__pycache__
+/database.db
+*.pyc
+/hgoldfish/examples
+/dist
+/idea

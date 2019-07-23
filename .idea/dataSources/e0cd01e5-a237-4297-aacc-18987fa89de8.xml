@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="database">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.15">
+    <root id="1">
+      <ServerVersion>3.25.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="following_show"/>
+    <table id="7" parent="2" name="repositories_show"/>
+    <table id="8" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="9" parent="2" name="stars_show"/>
+    <table id="10" parent="2" name="user_info"/>
+    <table id="11" parent="2" name="watching_show"/>
+    <table id="12" parent="2" name="website_info"/>
+    <column id="13" parent="6" name="query_field">
+      <Position>1</Position>
+      <DataType>VARCHAR(350)|0s</DataType>
+    </column>
+    <column id="14" parent="6" name="comment">
+      <Position>2</Position>
+      <DataType>VARCHAR(350)|0s</DataType>
+    </column>
+    <column id="15" parent="6" name="uname">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="16" parent="6" name="sqlite_autoindex_following_show_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>query_field
+uname</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="17" parent="6">
+      <ColNames>query_field
+uname</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_following_show_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="18" parent="6">
+      <ColNames>uname</ColNames>
+      <RefTableName>user_info</RefTableName>
+      <RefColNames>uname</RefColNames>
+    </foreign-key>
+    <column id="19" parent="7" name="query_field">
+      <Position>1</Position>
+      <DataType>VARCHAR(350)|0s</DataType>
+    </column>
+    <column id="20" parent="7" name="comment">
+      <Position>2</Position>
+      <DataType>VARCHAR(350)|0s</DataType>
+    </column>
+    <column id="21" parent="7" name="uname">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="22" parent="7" name="sqlite_autoindex_repositories_show_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>query_field
+uname</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="23" parent="7">
+      <ColNames>query_field
+uname</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_repositories_show_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="24" parent="7">
+      <ColNames>uname</ColNames>
+      <RefTableName>user_info</RefTableName>
+      <RefColNames>uname</RefColNames>
+    </foreign-key>
+    <column id="25" parent="8" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="26" parent="8" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="27" parent="8" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="28" parent="8" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="29" parent="8" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="30" parent="9" name="query_field">
+      <Position>1</Position>
+      <DataType>VARCHAR(350)|0s</DataType>
+    </column>
+    <column id="31" parent="9" name="comment">
+      <Position>2</Position>
+      <DataType>VARCHAR(350)|0s</DataType>
+    </column>
+    <column id="32" parent="9" name="uname">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="33" parent="9" name="sqlite_autoindex_stars_show_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>query_field
+uname</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="34" parent="9">
+      <ColNames>query_field
+uname</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_stars_show_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="35" parent="9">
+      <ColNames>uname</ColNames>
+      <RefTableName>user_info</RefTableName>
+      <RefColNames>uname</RefColNames>
+    </foreign-key>
+    <column id="36" parent="10" name="url_id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="10" name="uname">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="10" name="upwd">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="10" name="tasks">
+      <Position>4</Position>
+      <DataType>VARCHAR(50000)|0s</DataType>
+    </column>
+    <index id="40" parent="10" name="sqlite_autoindex_user_info_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>url_id
+uname</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="41" parent="10">
+      <ColNames>url_id
+uname</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_user_info_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="42" parent="10">
+      <ColNames>url_id</ColNames>
+      <RefTableName>website_info</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="43" parent="11" name="query_field">
+      <Position>1</Position>
+      <DataType>VARCHAR(350)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="11" name="comment">
+      <Position>2</Position>
+      <DataType>VARCHAR(350)|0s</DataType>
+    </column>
+    <column id="45" parent="11" name="uname">
+      <Position>3</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="46" parent="11" name="sqlite_autoindex_watching_show_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>query_field
+uname</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="11">
+      <ColNames>query_field
+uname</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_watching_show_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="48" parent="11">
+      <ColNames>uname</ColNames>
+      <RefTableName>user_info</RefTableName>
+      <RefColNames>uname</RefColNames>
+    </foreign-key>
+    <column id="49" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="12" name="url">
+      <Position>2</Position>
+      <DataType>VARCHAR(300)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="51" parent="12" name="sqlite_autoindex_website_info_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>url</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="12">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="53" parent="12">
+      <ColNames>url</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_website_info_1</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

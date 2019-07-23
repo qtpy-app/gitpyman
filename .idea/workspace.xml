@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd62f516-c683-4602-b977-887384125a0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/50_xiangrikui/source/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/50_xiangrikui/source/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/50_xiangrikui/source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/50_xiangrikui/source/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/50_xiangrikui/source/.idea/source.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/50_xiangrikui/source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/dataSources/bc4b0192-d065-4e54-b5b5-0f95f5721564.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/dataSources/dbb0624c-06c3-4c1e-8750-6755bd36e818.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/gm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/runConfigurations/Client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/Client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/Client.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/Data/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/Data/qwebchannel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/Data/res.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/Data/run_in_web.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Base_TableView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Base_TableView_Delegate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Serve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Serve.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/Ui_Serve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/main_db_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/main_db_control_util1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI/main_db_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI_WEB/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI_WEB/webControl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/UUI_WEB/webSharedObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/Ui_Client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/gm_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/hgoldfish/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/hgoldfish/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/hgoldfish/utils/eventlet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/res_rc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/util/BasePara.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/util/Task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/util/github.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpyman/util/runTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/02_Menu.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/F001.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/F001Form.ui.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/ListView_03/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/ListView_03/ListView_03.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/ListView_03/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/ListView_03/main.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/ListView_03/qml.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/calcExample/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/calcExample/Calc.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/calcExample/CalcForm.ui.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/calcExample/calcExample.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/calcExample/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/calcExample/main.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/calcExample/qml.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/myPlugin/MyRect.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/myPlugin/MyStyle.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/myPlugin/myitem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/myPlugin/myitem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/myPlugin/myplugin.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/myPlugin/myplugin_plugin.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/myPlugin/myplugin_plugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/myPlugin/qmldir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/mydialogTest/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/mydialogTest/mainwindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/mydialogTest/mainwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/mydialogTest/mainwindow.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/mydialogTest/mydialogTest.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/mydialogTest/myfiledlg.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/mydialogTest/myfiledlg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/component/XControlBtn.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/component/XMainTabBtn.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/component/XNormalText.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/component/XPromptBox.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/component/XSubmitBtn.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/main.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/qml.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../learningQML/smartHouse/smartHouse/smartHouse.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../挂机可运行/ui_bmshow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Graphics" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Graphics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Main.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Main.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Tools/BasePara.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Tools/BasePara.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Tools/logError.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Tools/logError.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UI_INIT.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UI_INIT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/DB_Delegate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/DB_View.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/DB_View.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/Ui_connect_LED.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/Ui_connect_LED.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/connect_LED.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/connect_LED.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/main_realtime.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/main_realtime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/transferMainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Component/transferMainWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_DataQuery_Package/Ui_setting_page_to_grid_dataQuery_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_DataQuery_Package/Ui_setting_page_to_grid_dataQuery_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_DataQuery_Package/setting_page_to_grid_dataQuery_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_DataQuery_Package/setting_page_to_grid_dataQuery_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_DataQuery_Package/setting_page_to_grid_dataQuery_page.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_DataQuery_Package/setting_page_to_grid_dataQuery_page.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/Ui_defencs_paraSetting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/Ui_defencs_paraSetting_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/Ui_display_edit_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/Ui_display_edit_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/Ui_setting_page_to_grid_paraSetting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/Ui_setting_page_to_grid_paraSetting_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/Ui_system_paraSetting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/Ui_system_paraSetting_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/defencs_paraSetting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/defencs_paraSetting_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/defencs_paraSetting_page.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/defencs_paraSetting_page.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/display_edit_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/display_edit_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/display_edit_main_page.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/display_edit_main_page.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/setting_page_to_grid_paraSetting_page.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/setting_page_to_grid_paraSetting_page.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/system_paraSetting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/system_paraSetting_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/system_paraSetting_page.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Grid_ParaSetting_Package/system_paraSetting_page.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Remote_Control_Package/Ui_remote_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Remote_Control_Package/Ui_remote_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Remote_Control_Package/remote_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Remote_Control_Package/remote_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Remote_Control_Package/remote_control.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Remote_Control_Package/remote_control.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Ui_main_to_setting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Ui_main_to_setting_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Ui_setting_page_to_pwd_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/Ui_setting_page_to_pwd_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/main_to_setting_page.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/main_to_setting_page.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/setting_page_to_pwd_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/setting_page_to_pwd_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/setting_page_to_pwd_page.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/UUI/setting_page_to_pwd_page.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Ui_Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/Ui_Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Transceiver/comx.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Transceiver/comx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Transceiver/lanx.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Transceiver/lanx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Transceiver/xieyi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Transceiver/xieyi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Upload/upload.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Upload/uploadRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/Upload/uploadRec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/sent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/sent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../0_pyqtPRO____/38_jianyu_smicon/project_v3/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Graphics/graph.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Graphics/node_content_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Graphics/node_content_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Graphics/node_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Graphics/node_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Graphics/node_scene.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Graphics/node_scene.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Graphics/node_socket.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Graphics/node_socket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/ModelView/PyQtFileSystemView.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/ModelView/PyQtFileSystemView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/QMLUI/Lesson" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/QMLUI/Lesson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Tools/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Tools/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Tools/main_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Tools/main_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Tools/pmf_myjson.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Tools/pmf_myjson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Tools/qmf_showError.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Tools/qmf_showError.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Tools/watcherManage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Tools/watcherManage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Ui_WatcherFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Ui_WatcherFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/Ui_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/Ui_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/WatcherFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/WatcherFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/WatcherFile.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/WatcherFile.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/ScreenShot/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/Ui_py_qml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/doc/images/qtquickcontrols2-gallery-drawer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/doc/images/qtquickcontrols2-gallery-menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/doc/images/qtquickcontrols2-gallery-welcome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/doc/src/qtquickcontrols2-gallery.qdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/back@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/back@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/back@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/drawer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/drawer@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/drawer@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/drawer@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/menu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/menu@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/+material/menu@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/arrow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/arrow@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/arrow@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/arrows@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/arrows@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/arrows@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/back@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/back@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/back@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/drawer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/drawer@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/drawer@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/drawer@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/menu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/menu@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/menu@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/qt-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/qt-logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/qt-logo@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/images/qt-logo@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/BusyIndicatorPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/BusyIndicatorPage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ButtonPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ButtonPage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/CheckBoxPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ComboBoxPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/DelayButtonPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/DelegatePage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/DialPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/DialPage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/DialogPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/FramePage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/GroupBoxPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/PageIndicatorPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ProgressBarPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/RadioButtonPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/RangeSliderPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ScrollBarPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ScrollIndicatorPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ScrollIndicatorPage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ScrollablePage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ScrollablePage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/SliderPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/SliderPage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/SpinBoxPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/StackViewPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/StackViewPage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/SwipeViewPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/SwitchPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/SwitchPage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/TabBarPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/TextAreaPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/TextAreaPage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/TextFieldPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/ToolTipPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/TumblerPage.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/pages/TumblerPage.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/py_mqltest.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/py_mqltest.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/py_mqltest1.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/py_qml.e4p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/py_qml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/beAddQMLWindow/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/graphics.json" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/graphics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/load.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../watcherQML/setting.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../watcherQML/setting.ini" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Cookies" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Cookies" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Cookies" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="216">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gitpyman/gm_run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="12" selection-start-line="12" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#167#1" expanded="true" />
+                <element signature="e#168#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://bf626486-98c2-481d-a346-e2c93693ce91/schema/main/table/cookies">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="a9c78b07-c2c4-4be7-988c-2e5250f65b4c">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="231">
+                <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="987">
+              <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+              <folding>
+                <element signature="e#6867#6931#0" expanded="true" />
+                <element signature="e#9691#9782#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_control.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+              <folding>
+                <element signature="e#16#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+              <folding>
+                <element signature="e#4008#4099#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gitpyman/Client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="64" column="50" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="50" />
+              <folding>
+                <element signature="e#171#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sa</find>
+      <find>create_table</find>
+      <find>cookies</find>
+      <find>loadAll</find>
+      <find>Cache</find>
+      <find>loadAllCookie</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gm/Client.py" />
+        <option value="$PROJECT_DIR$/main_gm.py" />
+        <option value="$PROJECT_DIR$/gm/UUI_WEB/webComponent.py" />
+        <option value="$PROJECT_DIR$/gm/gm.py" />
+        <option value="$PROJECT_DIR$/gitpyman/.gitignore" />
+        <option value="$PROJECT_DIR$/gitpyman/__init__.py" />
+        <option value="$PROJECT_DIR$/gitpyman/Client.py" />
+        <option value="$PROJECT_DIR$/MANIFEST.in" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/gitpyman/UUI/main_db_control.py" />
+        <option value="$PROJECT_DIR$/gitpyman/UUI/main_db_model.py" />
+        <option value="$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py" />
+        <option value="$PROJECT_DIR$/gitpyman/gm_run.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/github_comment.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="github_comment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github_comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github_comment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github_comment" type="462c0819:PsiDirectoryNode" />
+              <item name="gitpyman" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github_comment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github_comment" type="462c0819:PsiDirectoryNode" />
+              <item name="gitpyman" type="462c0819:PsiDirectoryNode" />
+              <item name="UUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodePro\Py\QML\__0_pro__\github_comment" />
+      <recent name="D:\CodePro\Py\QML\__0_pro__\github_comment\gm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodePro\Py\QML\__0_pro__\github_comment" />
+      <recent name="D:\CodePro\Py\QML\__0_pro__\github_comment\gitpyman\Data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.gm_run">
+    <configuration name="gm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github_comment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gm/gm.py" />
+      <option name="PARAMETERS" value="run" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gm_run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github_comment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gitpyman" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gitpyman/gm_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_gm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github_comment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\CodePro\Py\QML\__0_pro__\github_comment\gm\gm.py" />
+      <option name="PARAMETERS" value="run" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_gm" />
+      <item itemvalue="Python.gm" />
+      <item itemvalue="Python.gm_run" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gm_run" />
+        <item itemvalue="Python.gm" />
+        <item itemvalue="Python.main_gm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd62f516-c683-4602-b977-887384125a0b" name="Default Changelist" comment="" />
+      <created>1563806915737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563806915737</updated>
+      <workItem from="1563806918324" duration="7763000" />
+      <workItem from="1563848539526" duration="6532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14295000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19848485" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" sideWeight="0.49848485" weight="0.32928944" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.56060606" visible="true" weight="0.20277296" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="Regex Tester" order="12" />
+      <window_info anchor="bottom" id="TagMyCode" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.43939394" side_tool="true" visible="true" weight="0.20277296" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="QuickSloth" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.111363634" />
+      <window_info anchor="right" id="Key Promoter X" order="5" />
+      <window_info anchor="right" id="Remote Host" order="6" />
+      <window_info anchor="right" id="PlantUML" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/gm" />
+    </ignored-roots>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/github_comment$main_gm.coverage" NAME="main_gm Coverage Results" MODIFIED="1563808053857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/github_comment$gm.coverage" NAME="gm Coverage Results" MODIFIED="1563808177924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gm" />
+    <SUITE FILE_PATH="coverage/github_comment$gm_run.coverage" NAME="gm_run Coverage Results" MODIFIED="1563854118215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitpyman" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pygitc.py" />
+    <entry file="file://$PROJECT_DIR$/gitpyman/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../py_c/_Envs/m5/Lib/site-packages/gitpyman/gm_run.py" />
+    <entry file="file://$PROJECT_DIR$/gitpyman/Data/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-952895990/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="5480" column="8" selection-start-line="5480" selection-start-column="8" selection-end-line="5480" selection-end-column="8" />
+          <folding>
+            <element signature="e#186405#186597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/Ui_main_db_control.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/gitpyman/UUI_WEB/webComponent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="301" column="43" selection-start-line="301" selection-start-column="43" selection-end-line="301" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="50" />
+          <folding>
+            <element signature="e#171#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://97501ac8-f032-4c7e-933c-8f9458522b09/schema/main/table/meta">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a9c78b07-c2c4-4be7-988c-2e5250f65b4c">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI/main_db_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+          <folding>
+            <element signature="e#4008#4099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/UUI_WEB/webComponent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <element signature="e#6867#6931#0" expanded="true" />
+            <element signature="e#9691#9782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://97501ac8-f032-4c7e-933c-8f9458522b09/schema/main/table/cookies">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a9c78b07-c2c4-4be7-988c-2e5250f65b4c">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitpyman/gm_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#167#1" expanded="true" />
+            <element signature="e#168#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bf626486-98c2-481d-a346-e2c93693ce91/schema/main/table/cookies">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a9c78b07-c2c4-4be7-988c-2e5250f65b4c">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="231">
+            <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
