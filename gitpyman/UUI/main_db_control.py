@@ -25,8 +25,6 @@ from UUI.main_db_model import (SqlalchemyDBControl, UserTable, WebSiteTable, USE
                                )
 from util import github
 
-from util.BasePara import FLAGS, Signals
-from util.github import get_watching
 
 # from gitpyman.UUI.main_db_model import sync_create_orgs_table
 

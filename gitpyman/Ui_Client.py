@@ -259,6 +259,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         self.tabWidget.setCurrentIndex(0)
         self.repo_tabWidget.setCurrentIndex(-1)
+        self.filter_le.returnPressed.connect(self.filter_btn.click)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
         MainWindow.setTabOrder(self.main_login_btn, self.web_site_cb)
         MainWindow.setTabOrder(self.web_site_cb, self.web_pwd_le)

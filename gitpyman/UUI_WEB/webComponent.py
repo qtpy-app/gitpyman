@@ -22,7 +22,6 @@ from UUI.main_db_model import (FOLLOWING_TABLE_NAME, STARS_TABLE_NAME, REPOSITOR
 # </editor-fold>
 
 import json
-import socket
 from PyQt5.QtCore import QUrl, QByteArray, QFile, QIODevice, QTimer, QEventLoop
 from PyQt5.QtNetwork import QNetworkCookie
 from PyQt5.QtWebEngineWidgets import QWebEngineView, QWebEnginePage, QWebEngineProfile
@@ -110,9 +109,9 @@ class MyEngineView(QWebEngineView):
 
         self.page().toHtml(self.__do_paras_html)
 
-    import snoop
-    #snoop.install(out="snoop.log")
-    @snoop.snoop(depth=4)
+    # import snoop
+    # #snoop.install(out="snoop.log")
+    # @snoop.snoop(depth=4)
     def __do_paras_html(self, qthtml):
         url = self.url().url()
         ParseResult = urlparse(url)

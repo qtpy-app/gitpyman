@@ -38,7 +38,6 @@ def start():
 def run():
     sys.argv.append("run")
     arguments = docopt(__doc__, version="0.0.1")
-    print(arguments)
     if arguments["run"]:
 
         ok = start()

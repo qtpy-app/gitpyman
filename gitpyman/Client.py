@@ -10,7 +10,7 @@ pip install sqlalchemy
 # pip install pysnooper
 """
 import io
-import sys
+import sys,os
 from threading import Thread
 
 from PyQt5.QtWebEngineWidgets import QWebEngineProfile
@@ -62,7 +62,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # -------------quick obj------------- ↓
         BasePara.mw = self
         global DEBUG
-        self.DEBUG = BasePara.DEBUG = DEBUG = True
+        self.DEBUG = BasePara.DEBUG = DEBUG = False
+        if DEBUG:
+            os.environ['QTWEBENGINE_REMOTE_DEBUGGING'] = '9966'
+            os.environ['QTWEBENGINE_CHROMIUM_FLAGS'] = '--disable-logging --log-level=4'
+
         print("赋值0:", BasePara.mw, BasePara.DEBUG)
 
         # -------------quick obj------------- ↑
@@ -88,11 +92,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         hm_layout.addWidget(self.hm_show_te)
 
         DB.on_web_site_url_query()
-        # self.tjrw_btn.setEnabled(False)
-        # self.tjrw_btn.setText("添加任务(请先登录)")
+
         self.wycz_tab__wid.web_zoom_sp.setValue(0.75)
         self.showMaximized()
 
+        url = "https://github.com/login?return_to=%2Fjoin"
+        self.browser.setUrl(QUrl(url))
     def __Signal(self):
         self.thread_pools = eventlet.GreenletGroup()
         # Signals.loginSuccess_signal.connect(lambda: [self.tjrw_btn.setEnabled(True),
@@ -102,9 +107,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def DEBUGOPTION(self):
 
-        url = "https://github.com/login?return_to=%2Fjoin"
-        self.browser.setUrl(QUrl(url))
-        # </editor-fold>
 
         # <editor-fold desc="重载调试">
         from util import runTest
@@ -250,10 +252,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         eventlet.sleep(time)
 
 def main():
-    import sys, traceback, os
+    import sys, traceback
 
-    os.environ['QTWEBENGINE_REMOTE_DEBUGGING'] = '9966'
-    os.environ['QTWEBENGINE_CHROMIUM_FLAGS'] = '--disable-logging --log-level=4'
     app = QApplication(sys.argv)
     app.setStyle(QStyleFactory.create("Fusion"))
 

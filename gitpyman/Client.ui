@@ -497,5 +497,22 @@ QSplitter::handle:vertical  {
   <tabstop>tabWidget</tabstop>
  </tabstops>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>filter_le</sender>
+   <signal>returnPressed()</signal>
+   <receiver>filter_btn</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>899</x>
+     <y>302</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>986</x>
+     <y>295</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
