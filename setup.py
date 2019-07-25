@@ -4,7 +4,7 @@ import platform
 from setuptools import setup, find_packages
 import os
 
-VERSION = '0.0.2'
+VERSION = '0.0.5'
 NAME = "gitpyman"
 
 with open("README.md","r",encoding="utf-8") as fp:

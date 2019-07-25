@@ -11,16 +11,10 @@ pip install sqlalchemy
 """
 import io
 import sys,os
+from importlib import reload
 from threading import Thread
 
 from PyQt5.QtWebEngineWidgets import QWebEngineProfile
-
-from UUI_WEB.webComponent import MyWebEngineUrlRequest
-from util import github
-from util.Task import JF
-
-from importlib import reload
-
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
@@ -34,9 +28,13 @@ except ImportError as e:
     except ImportError as e:
         print("--2 --", e)
 
+from UUI_WEB.webComponent import MyWebEngineUrlRequest
+
 from UUI_WEB.webControl import WebControl
 from UUI.main_db_control import DBControl
 from util.BasePara import Signals, FLAGS
+from util import github
+from util.Task import JF
 
 from eventlet.hubs import epolls, kqueue, poll, selects
 import eventlet as __eventlet

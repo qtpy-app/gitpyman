@@ -46,4 +46,6 @@ method 2: or download from :
 - add doc;
 - (add hook star/watch);
 - add release;
+- add backup .db --can't upload github,because has pwd;
+- change .db path --bug;
 

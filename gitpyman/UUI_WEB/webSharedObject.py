@@ -3,7 +3,6 @@
 
 from urllib.parse import urlparse
 import requests
-import js2py
 from PyQt5.QtCore import QObject, pyqtSlot, QVariant, Qt, QThread, pyqtSignal, QTimer
 from PyQt5.QtWebEngineWidgets import QWebEnginePage
 from PyQt5.QtWidgets import QMessageBox, QErrorMessage, QMainWindow

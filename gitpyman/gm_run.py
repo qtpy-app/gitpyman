@@ -19,16 +19,17 @@ from docopt import docopt
 try:
     from PyQt5.QtWebEngineWidgets import QWebEngineView
 except:
-    print("If your pyqt version>5.10.1 , please pip install PyQtWebEngine")
+    print("==" * 8 + "\n" + "If your pyqt version>5.10.1 , please pip install PyQtWebEngine" + "==" * 8 + "\n")
+    sys.exit(0)
 
 from Client import main
+
 APP_DESC = """
          PYGITC ---- PyQt5 template
          @author qq 625781186  (https://github.com/625781186/github_comment) 
 """
 
 NAME = "github_comment"
-
 
 
 def start():
