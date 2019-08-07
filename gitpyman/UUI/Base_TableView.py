@@ -22,21 +22,22 @@ class QQTableView(QTableView):
 
     def __updateWidth(self, aver_type=1):
         """刷新宽度 和最大值 """
-        # if rowCount > 0:
-        #     averwidth_3 = (self.width() - self.verticalHeader().defaultSectionSize()) / aver_p
-        # else:
-        # for i in range(TW_COL):
-        #     self.queryModel.setHeaderData(i, Qt.Horizontal, TW_TITLE[i])
+        # inner_scrollbar = self.verticalScrollBar()
 
-        TW_COL = self.model().columnCount()
-
-        ## 均分
+        model = self.model()
+        rowCount = model.rowCount()
+        TW_COL = model.columnCount()
+        if rowCount > 0:
+            vBar_width = self.verticalHeader().defaultSectionSize()
+        else:
+            vBar_width = 0
+        ## 1. 均分
         if aver_type == 1:
             averwidth_n = self.width() / TW_COL
             for col in range(TW_COL):
                 self.setColumnWidth(col, averwidth_n)
 
-        ## 前占后隐 ,不均分
+        ## 2. 前占后隐 ,不均分
         elif aver_type == 2:
             dw = 0
             aver_p = 3
@@ -47,11 +48,9 @@ class QQTableView(QTableView):
             self.setColumnWidth(2, averwidth_n - dw / 2)
             for col in range(aver_p, TW_COL):
                 self.setColumnWidth(col, other_width)
-        ## 完全自定义, 不均分
+        ## 3. 完全自定义, 不均分
         else:
-            # TW_TITLE = ["id", "网址", "用户", "时间", "期号",
-            #           "玩法", "类型", "投注号码", "倍数", "中奖号码",
-            #           "盈亏"]
+
 
             cus_width = {
                 # 0 : 20,
@@ -60,7 +59,9 @@ class QQTableView(QTableView):
 
             }
 
-            averwidth_n = (self.width() - sum(cus_width.values())) / (TW_COL - len(cus_width))
+            averwidth_n = (self.width()
+                           - sum(cus_width.values())
+                           - vBar_width) / (TW_COL - len(cus_width))
 
             for col in range(TW_COL):
                 if col in cus_width:

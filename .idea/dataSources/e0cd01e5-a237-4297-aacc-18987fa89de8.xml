@@ -37,7 +37,6 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>query_field
 uname</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="17" parent="6">
@@ -68,7 +67,6 @@ uname</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ColNames>query_field
 uname</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="23" parent="7">
@@ -119,7 +117,6 @@ uname</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ColNames>query_field
 uname</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="34" parent="9">
@@ -156,7 +153,6 @@ uname</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ColNames>url_id
 uname</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="41" parent="10">
@@ -188,7 +184,6 @@ uname</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ColNames>query_field
 uname</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="47" parent="11">
@@ -215,7 +210,6 @@ uname</ColNames>
     <index id="51" parent="12" name="sqlite_autoindex_website_info_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>url</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="52" parent="12">

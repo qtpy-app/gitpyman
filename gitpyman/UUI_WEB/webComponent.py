@@ -6,6 +6,8 @@
 import os
 from urllib.parse import urlparse
 from xml.etree.ElementTree import Element
+from PyQt5.QtGui import QContextMenuEvent, QDesktopServices
+from PyQt5.QtWidgets import QMenu
 from lxml import etree
 from sqlalchemy.orm import sessionmaker
 
@@ -22,7 +24,7 @@ from UUI.main_db_model import (FOLLOWING_TABLE_NAME, STARS_TABLE_NAME, REPOSITOR
 # </editor-fold>
 
 import json
-from PyQt5.QtCore import QUrl, QByteArray, QFile, QIODevice, QTimer, QEventLoop
+from PyQt5.QtCore import QUrl, QByteArray, QFile, QIODevice, QTimer, QEventLoop, QPoint, QLocale
 from PyQt5.QtNetwork import QNetworkCookie
 from PyQt5.QtWebEngineWidgets import QWebEngineView, QWebEnginePage, QWebEngineProfile
 from PyQt5.QtWebEngineCore import QWebEngineUrlRequestInterceptor, QWebEngineUrlRequestInfo
@@ -41,24 +43,34 @@ class MyEngineView(QWebEngineView):
     def __init__(self, parent=None):
 
         super().__init__(parent)
+        self.__initUI()
+        self.__initSignals()
+        self.__initCookies()
 
-        # <editor-fold desc="交互通信">
+    def __initUI(self):
         self._page = MyEnginePage(self.parent())
         self.setPage(self._page)
-        # </editor-fold>
+        #
 
-        self.page().loadFinished.connect(self.onLoadFinished)
-        # replace createWindow
+        # self.__menu = QMenu(self)
+        #
         self.hover_url = ''
-        self.page().linkHovered.connect(lambda url: setattr(self, 'hover_url', QUrl(url)))
-        self.page().linkHovered.connect(lambda url: self.mw.statusBar().showMessage(url))
-
-        ## https://www.sojson.com/js.html
+        #
         self._channel_script = self.qt_readJS(':/Data/qwebchannel.js')
         self._jquery_script = self.qt_readJS(':/Data/jquery-3.3.1.min.js')
         self._web_script = self.readJS("Data/run_in_web.js")
-        # 小注释 : 本机读文件 他机读变量
+        # 存储每次页面的 query_field
+        self.query_field_list = []
 
+    def __initSignals(self):
+        self.page().loadFinished.connect(self.onLoadFinished)
+        # replace createWindow
+
+        self.page().linkHovered.connect(lambda url: setattr(self, 'hover_url', QUrl(url)))
+        self.page().linkHovered.connect(lambda url: self.mw.statusBar().showMessage(url))
+        ## https://www.sojson.com/js.html
+
+    def __initCookies(self):
         # cookies
         webEngineProfile = QWebEngineProfile.defaultProfile()
         cookieStore = webEngineProfile.cookieStore()
@@ -73,8 +85,8 @@ class MyEngineView(QWebEngineView):
         print(f"{webEngineProfile.persistentStoragePath(), webEngineProfile.persistentCookiesPolicy()}")
         # cookieStore.deleteAllCookies()
         # self.loadFinished.connect(self.onLoadFinished)
-        # 存储每次页面的 query_field
-        self.query_field_list = []
+
+    # --------------------------
 
     def onLoadFinished(self):
         self.query_field_list = []
@@ -312,6 +324,102 @@ class MyEngineView(QWebEngineView):
 
         QWebEngineProfile.defaultProfile().cookieStore().loadAllCookies()
 
+    # -------------------------- ↓
+
+    # -------------------------- ↑
+    def contextMenuEvent(self, evt):
+        """
+        Protected method called to create a context menu.
+
+        This method is overridden from QWebEngineView.
+
+        @param evt reference to the context menu event object
+            (QContextMenuEvent)
+        """
+        self.__menu = self.page().createStandardContextMenu()
+        pos = evt.pos()
+        reason = evt.reason()
+        QTimer.singleShot(
+            0,
+            lambda: self._contextMenuEvent(QContextMenuEvent(reason, pos)))
+        # needs to be done this way because contextMenuEvent is blocking
+        # the main loop
+
+    def _contextMenuEvent(self, evt):
+        """
+        Protected method called to create a context menu.
+
+        This method is overridden from QWebEngineView.
+
+        @param evt reference to the context menu event object
+            (QContextMenuEvent)
+        """
+
+        self.__createPageContextMenu(self.__menu)
+
+        if not self.__menu.isEmpty():
+            pos = evt.globalPos()
+            self.__menu.popup(QPoint(pos.x(), pos.y() + 1))
+
+    def __createPageContextMenu(self, menu):
+        """
+        Private method to populate the basic context menu.
+
+        @param menu reference to the menu to be populated
+        @type QMenu
+        """
+        ##
+        menu.addSeparator()
+        menu.addAction(
+            self.tr("Open native web"),
+            lambda: QDesktopServices.openUrl(self.url())
+        )
+        ##
+        language = QLocale.system().name()
+        if not language:
+            languages = []
+        else:
+            languages = MyEngineView.expand(QLocale(language).language())
+        if languages:
+            menu.addSeparator()
+            language = languages[0]
+            langCode = language.split("[")[1][:2]
+            googleTranslatorUrl = QUrl.fromEncoded(
+                b"http://translate.google.com/translate?sl=auto&tl=" +
+                langCode.encode() +
+                b"&u=" +
+                QUrl.toPercentEncoding(bytes(self.url().toEncoded()).decode()))
+            menu.addAction(
+                self.tr("Google Translate"),
+                lambda :self.load(googleTranslatorUrl)
+                           )#TODO: maybe has google bug blank.
+
+    @classmethod
+    def expand(cls, language):
+        """
+        Class method to expand a language enum to a readable languages
+        list.
+
+        @param language language number (QLocale.Language)
+        @return list of expanded language names (list of strings)
+        """
+        allLanguages = []
+        countries = [l.country() for l in QLocale.matchingLocales(
+            language, QLocale.AnyScript, QLocale.AnyCountry)]
+        languageString = "{0} [{1}]" \
+            .format(QLocale.languageToString(language),
+                    QLocale(language).name().split('_')[0])
+        allLanguages.append(languageString)
+        for country in countries:
+            languageString = "{0}/{1} [{2}]" \
+                .format(QLocale.languageToString(language),
+                        QLocale.countryToString(country),
+                        '-'.join(QLocale(language, country).name()
+                                 .split('_')).lower())
+            if languageString not in allLanguages:
+                allLanguages.append(languageString)
+
+        return allLanguages
     # -------------------------- ↓
 
     # -------------------------- ↑

@@ -93,16 +93,13 @@
     <index id="23" parent="6" name="sqlite_autoindex_cookies_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>creation_utc</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="24" parent="6" name="domain">
       <ColNames>host_key</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <index id="25" parent="6" name="is_transient">
       <ColNames>persistent</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Condition>persistent != 1</Condition>
     </index>
     <key id="26" parent="6">
@@ -126,7 +123,6 @@
     <index id="30" parent="7" name="sqlite_autoindex_meta_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>key</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="31" parent="7">
